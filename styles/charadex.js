@@ -83,7 +83,7 @@ let optionSorter = (options) => {
 /* QOL Funcs
 /* ================================================================ */
 let sheetPage = (id, pageName) => {
-    return `https://docs.google.com/spreadsheets/d/${id}/gviz/tq?tqx=out:json&headers=1&tq=WHERE A IS NOT NULL&sheet=${pageName}`
+    return `https://docs.google.com/spreadsheets/d/1KiKsz1aKvrq9wEsofw4sb1BlBI0dP8QuDa-jqmS0Bko/edit?usp=sharing A IS NOT NULL&sheet=${pageName}`
 };
 
 let fetchSheet = async (page, sheet = sheetID) => {
