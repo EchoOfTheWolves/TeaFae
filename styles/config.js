@@ -19,6 +19,9 @@ let sheetPages = {
     prompts: "prompts",
     faq: "faq",
     staff: "mods",
+    announcement: "General Announcements",
+    update: "Species Updates",
+    adopt: "Adopts",
 
 }
 
@@ -143,6 +146,45 @@ let options = {
         itemOrder: "asc",
     
         searchFilterParams: ['Tags'],
+    
+    },
+    
+/* General Announcements
+    /* --------------------------------------------------------------- */
+    announcement: {
+    
+        sheetPage: sheetPages.announcement,
+
+        itemAmount: 24,
+        itemOrder: "desc",
+
+        searchFilterParams: ['Title'],
+    
+    },
+
+/* Updates
+    /* --------------------------------------------------------------- */
+    update: {
+    
+        sheetPage: sheetPages.update,
+
+        itemAmount: 24,
+        itemOrder: "desc",
+
+        searchFilterParams: ['Title'],
+    
+    },
+
+/* Adopts
+    /* --------------------------------------------------------------- */
+    adopt: {
+    
+        sheetPage: sheetPages.adopt,
+
+        itemAmount: 24,
+        itemOrder: "desc",
+
+        searchFilterParams: ['Title'],
     
     },
 
