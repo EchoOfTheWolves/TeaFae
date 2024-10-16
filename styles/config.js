@@ -111,7 +111,7 @@ let options = {
     },
 
 
-    /* Traits
+     /* Traits
     /* --------------------------------------------------------------- */
     traits: {
     
@@ -122,7 +122,7 @@ let options = {
 
         filterColumn: 'Rarity',
         searchFilterParams: ['Trait'],
-        fauxFolderColumn: 'Type',
+        fauxFolderColumn: 'Species',
     
     },
 
