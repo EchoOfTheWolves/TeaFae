@@ -122,7 +122,7 @@ let options = {
 
         filterColumn: 'Rarity',
         searchFilterParams: ['Trait'],
-        fauxFolderColumn: 'Species',
+        fauxFolderColumn: 'Variant',
     
     },
 
