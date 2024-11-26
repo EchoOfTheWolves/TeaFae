@@ -650,3 +650,7 @@ p:last-child {
 .jobtitle:empty {
   display: none;
 }
+
+.badge:empty {
+  display: none;
+}
