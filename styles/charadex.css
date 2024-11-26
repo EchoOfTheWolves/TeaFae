@@ -647,10 +647,6 @@ p:last-child {
 /* Hiding Element
 /* ============================================================= */
 
-.jobtitle:empty {
-  display: none;
-}
-
-.badge:empty {
+.badge:has(.jobtitle:empty) {
   display: none;
 }
