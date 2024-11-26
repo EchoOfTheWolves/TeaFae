@@ -132,6 +132,10 @@ let options = {
     staff: {
     
         sheetPage: sheetPages.staff,
+
+        .jobtitle:empty {
+            display: none;
+          }
     
     },
 
