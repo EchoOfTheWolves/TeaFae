@@ -132,13 +132,12 @@ let options = {
     staff: {
     
         sheetPage: sheetPages.staff,
-
-        .jobtitle:empty {
-            display: none;
-          }
     
     },
 
+    .jobtitle:empty {
+        display: none;
+      }
 
     /* FAQ
     /* --------------------------------------------------------------- */
