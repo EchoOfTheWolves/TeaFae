@@ -651,6 +651,6 @@ p:last-child {
   display: none;
 }
 
-.owner:has(.owner:empty) {
+.owner-title:has(.owner:empty) {
   display: none;
 }
