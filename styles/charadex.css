@@ -650,3 +650,7 @@ p:last-child {
 .badge:has(.jobtitle:empty) {
   display: none;
 }
+
+.owner:has(.owner:empty) {
+  display: none;
+}
